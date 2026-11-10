@@ -16,7 +16,7 @@
 A Galaxy S24 Ultra carried up two floors of a stairwell and back down: 117 s, 43 m, +7 m. The phone ran the filter live and recorded its own sensor input. This is the desktop replay of that recording at 8× speed: the camera frames with their tracks, the trajectory and the triangulated map coloured by height. Back on its starting spot the estimate is 0.29 m from where AprilTags say the phone is (0.68 % of the path, Protocol 43). The live run ended 5 cm from this replay.
 </sub></p>
 
-This repository holds the **1.0.0 release** (the Android app, the Linux replay and calibration tools, a sample log), the main write-ups and the media. The source code is not in this repository.
+This repository holds the **1.0.0 release** (the Android app, the Linux replay and calibration tools, a sample log), the main write-ups, the media and an 18-slide [presentation (PDF)](https://github.com/Artemarius/pocketvio-app/releases/download/v1.0.0/pocketvio-1.0.0-deck.pdf). The source code is not in this repository.
 
 ## What it is
 
@@ -112,6 +112,7 @@ The trajectory is identical byte for byte to the reference (checked with the 1.0
 | [docs/results.md](docs/results.md) | all results, current and by phase, the media, the limitations |
 | [docs/pipeline.md](docs/pipeline.md) | one frame from the sensor to the pose, with each stage's cost and the latencies on the phone (Protocol 45) |
 | [docs/case-study-spin-runaway.md](docs/case-study-spin-runaway.md) | one problem from the first diverging spin to the covariance term that fixed it |
+| [presentation (PDF)](https://github.com/Artemarius/pocketvio-app/releases/download/v1.0.0/pocketvio-1.0.0-deck.pdf) | 18 slides: what it is, one frame through the pipeline, the results, the comparison with ARCore, the limitations |
 | [CHANGELOG.md](CHANGELOG.md) | what each release contains, with its measurements |
 
 The documents cite protocols, decision records (ADRs) and source files of the main repository by name; those are not part of this one.

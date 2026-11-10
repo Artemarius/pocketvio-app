@@ -29,6 +29,7 @@ The first release: real-time visual-inertial odometry on the phone, with an MSCK
 - `pocketvio-1.0.0-linux-x86_64.tar.gz`: `pocketvio_replay`, `pocketvio_timeoffset`, `pocketvio_calib_imu`, `pocketvio_calib_camera` and `pocketvio_profile` (Release, Ubuntu 24.04, static libstdc++), with the device profiles and the printable targets.
 - `pocketvio-sample-stairs.tar.gz`: the S24 Ultra stairs loop's log, without the frames between the AprilTag windows, plus its tracks and the reference result. The replay reproduces the reference trajectory byte for byte, and the tag evaluation gives 0.293 m (instructions in its `README.txt`).
 - `stairs_1x.mp4`, `stairs_4x.mp4`: the desktop render of the same run.
+- `pocketvio-1.0.0-deck.pdf`: the presentation, 18 slides: what it is, the pipeline, the results against AprilTags and ARCore, the limitations.
 
 ## [1.0.0-rc2] - 2026-11-10
 
